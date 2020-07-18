@@ -34,6 +34,7 @@ const IndexPage = (props) => {
           bookTitle={edge.node.title}
           bookSummary={edge.node.summary}
           authorName={edge.node.author.name}
+          bookCover={edge.node.localImage.publicURL}
           key={edge.node.id}
         >
           <LinkButton>
@@ -57,6 +58,9 @@ query MyQuery {
         summary
         title
         id
+        localImage {
+          publicURL
+        }
         author {
           name
         }
