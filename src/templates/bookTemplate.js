@@ -10,7 +10,7 @@ const BookTemplate = (props) => {
       bookTitle={props.pageContext.title}
       bookSummary={props.pageContext.summary}
       authorName={props.pageContext.author.name}
-      bookCover={props.pageContext.localImage.publicURL}
+      bookCover={props.pageContext.localImage.childImageSharp.fixed}
       />
     </Layout>
   );

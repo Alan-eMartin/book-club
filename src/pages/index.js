@@ -2,6 +2,8 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout";
+import Image from '../components/image';
+import SEO from '../components/seo';
 import BookItem from "../components/BookItem";
 import styled from 'styled-components';
 
@@ -23,7 +25,7 @@ const LinkButton = styled.div`
       transform: translateY(2%)
     }
   }
-`
+`;
 
 const IndexPage = (props) => {
   console.log(props);
@@ -34,7 +36,7 @@ const IndexPage = (props) => {
           bookTitle={edge.node.title}
           bookSummary={edge.node.summary}
           authorName={edge.node.author.name}
-          bookCover={edge.node.localImage.publicURL}
+          bookCover={edge.node.localImage.childImageSharp.fixed}
           key={edge.node.id}
         >
           <LinkButton>
@@ -59,7 +61,11 @@ query MyQuery {
         title
         id
         localImage {
-          publicURL
+          childImageSharp{
+            fixed(width: 200){
+              ...GatsbyImageSharpFixed
+            }
+          }
         }
         author {
           name
