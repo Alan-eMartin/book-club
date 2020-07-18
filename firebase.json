@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gatsby-book-club-62879",
+  "private_key_id": "e2a9f38d01592a7f5c94653eb8b4e9903fbbffb5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCeo2yqMo9V2hWb\nB4HD/WdmHTbWDfY5CDlZ/8MlEUV0Z8UPy1Q4VO8fkcbLCYkGZceBfxNP3hVrSuB9\n97QBR9OYMMZ5TvwVegnTVZeqocMAFPswlyxi9VDCEqtnmoO+Vh4PnYpH/5M1xx2a\nukWCvfGOLbugU+yHcJnQBSa68l5GJSDnqwpZ5qdyV8vL4PAV8lCKWs2fjU+y8y+j\n4x5Q+zyS/hRJ+uZz/NuANKeRwZpDEiP6Y/rkgg9jM/kH1ZfQw9NloJqRoX2EOZ5I\na6bw2ysCcs/z94pbx9dnECO2n7Cq28dyCiK0nqYQBBZKuP39l6Cn0jX3G6yO7l0/\nVWrto2jtAgMBAAECggEAECRH38+SNyWgMiyi3xrvRPwvArvb9HSqRUaZiDGINC6E\n5jUFxk+aH0e5hxpax3xevwX7pJJP8qFlU1v7hG/XD3LTFy/axaKr0kWwz4tzKJR5\n9LlFKnKUu5Kjv0CBLEJd/6/DjMzsITo4AHD4trN2G0X7A/bWJ/fkpr6HcNlNj2x5\nkjwm1Of7xtwF61RynmxXI+PB1p7o8B4z9on771yoFFccWJkf4Uv9lwQsYfTKqyCC\n4g1ZPFQ1YUD0CNhnNfaWG0uCPoke9RmizeJCDOQWxZhR/5Y/jyLaaf+4Tr9cPnWP\nCUTF9zyxNxdQ3ShQjymshfxBycpP52diVdMwVcktnwKBgQDbbcIkL2e0jeXgIy3g\nm6jT8+JKp8xF3DRGBpTNlbYgsIic+jvyJF8Ed0iQdQ1+HDipc8D2BaZ0d+lK0Ett\na3uOBRU95utJOYI1dtE72u+3ovEnwrRtilndqESWC5fgyD9IBCtaQ3V7RScVhUsu\nSbu2ijr9dphp9buFLcELj7OzAwKBgQC5E/VCB5tjavgjdrPKtTxREIPFJ+dx34gR\n89Z26m2JBqIzqUpY5PTan76GoOQSomE+FE3cNZTsE2pDlC0C77jw+4SkbyfbQh0W\nakGlLqzySBDxJ7aBcPXVeRMjT7b7wIdw+3BKBnOHguHD2SKUMyZEiSqWV9q+Ax+L\nTQs9Qka5TwKBgQCaKbbobVXTCI6ktpKY50PqBcLK6LEfs+IWALGy7qgSt3SDtVtA\neEU5ggS9WT+thm5YvzamormbwlNpeIZFzen0kaWm5AISZBETNvMxtlQNFLGRWb4h\n573TeVEWifaeupGbKzK6LALyJFedSxTS5IK5cMyZHyVd7INewhKK6N87uQKBgQCi\ngWuv9o3x1VLbkLZ9HnU/mIia7FbEHcmUOc3tzBkxX6m8QsENHLwB2pGoFE0uL3XC\n1IEpAcMpJkL/43NCSMrSjYYB+7e7RWnU7KeHKlygv7ZgiMYvEchJEG5FaxD4LCzA\nf4Yw+UknizxAgr9h8SeAtg+2wp1GieeAoL1lpHQE8QKBgAsURLTvUZnWUUcaD4aQ\nBGBXbzgdZnK59rf3rQMOFwr7GHbcST9fcTPLmxWt/QbqhEEN2ObmiUe2Ux5mBDk/\nd69uM8K7p58j2zzY5LCtRGK9ifM/YX30bSA8Ri7SXHWgiu5nJE0HlELLN97Uhzaz\naAs1CpwS/a9HAQGu2WWTwk3D\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-92rkq@gatsby-book-club-62879.iam.gserviceaccount.com",
+  "client_id": "105927160770257410880",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-92rkq%40gatsby-book-club-62879.iam.gserviceaccount.com"
+}
