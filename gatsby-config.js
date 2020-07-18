@@ -5,6 +5,11 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    // styled components
+    {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+    // firestore
     {
       resolve: `gatsby-firesource`,
       options: {
