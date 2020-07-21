@@ -5,7 +5,7 @@ import {useAuth} from '../components/Firebase'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => {
+const Login = () => {
 
   // state
   const [formValues, setFormValues] = useState({
@@ -58,4 +58,4 @@ const SecondPage = () => {
   )
 }
 
-export default SecondPage
+export default Login;
