@@ -11,19 +11,7 @@ exports.createPages = ({graphql, actions}) => {
    allBook {
     edges {
       node {
-        summary
-        title
         id
-        localImage {
-          childImageSharp{
-            fixed(width: 200){
-              src
-            }
-          }
-        }
-        author {
-          name
-        }
       }
     }
   }
@@ -37,8 +25,8 @@ exports.createPages = ({graphql, actions}) => {
    result.data.allBook.edges.forEach(book => {
      createPage({
        path: `/book/${book.node.id}`,
-       component:bookTemplate,
-       context: book.node,
+       component: bookTemplate,
+       context: {bookId: book.node.id},
      })
    });
 

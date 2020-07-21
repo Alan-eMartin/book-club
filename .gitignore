@@ -70,3 +70,6 @@ yarn-error.log
 
 # Firebase
 firebase.json
+
+# Keys
+APIHIDE.js

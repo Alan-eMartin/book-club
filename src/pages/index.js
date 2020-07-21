@@ -2,8 +2,8 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout";
-import Image from '../components/image';
-import SEO from '../components/seo';
+// import Image from '../components/image';
+// import SEO from '../components/seo';
 import BookItem from "../components/BookItem";
 import styled from 'styled-components';
 
@@ -27,8 +27,7 @@ const LinkButton = styled.div`
   }
 `;
 
-const IndexPage = (props) => {
-  console.log(props);
+const IndexPage = (props) => { 
   return (
     <Layout>
       {props.data.allBook.edges.map(edge => (
