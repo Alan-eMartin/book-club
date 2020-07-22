@@ -8,10 +8,10 @@
 <h1 align="center">
 Gatsby Bookclub
 </h1>
+
 <h2 align="center">
-  Gatsby JS, and Firebase Firestore/Database/Authorization
+  Gatsby JS, 💅🏻Styled Components and Firebase Firestore/Database/Authorization
 </h2>
-<hr>
 
 <h4>
   This is an application built using Gatsby JS! The user is able to login, add books, and start conversations on each book! Each book has its own page! Using Gatsby's built in createPages function.
