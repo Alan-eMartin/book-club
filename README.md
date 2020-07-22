@@ -7,7 +7,7 @@
 <h1 align="center">
   Gatsby Bookclub
 </h1>
-<h2>
+<h2 style="textAlign: 'center,'">
   Project built using Gatsby JS, and Firebase Firestore/Database/Authorization
 </h2>
 <hr>
