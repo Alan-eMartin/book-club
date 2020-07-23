@@ -36,7 +36,10 @@ const Register = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form 
+      onSubmit={handleSubmit}
+    >
+
       <Input
         onChange={handleInputChange}
         value={formValues.email}
