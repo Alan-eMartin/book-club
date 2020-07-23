@@ -54,6 +54,12 @@ const UserInfo = styled.div`
   color: white;
 `;
 
+const Divider = styled.span`
+  margin: 0 8px;
+  padding-right: 1px;
+  background-color: #ddd;
+`;
+
 const Header = ({ siteTitle }) => {
 
   const {firebase, user} = useContext(FirebaseContext);
@@ -88,6 +94,10 @@ const Header = ({ siteTitle }) => {
             <LoginLink>
               <Link to='/login'>
                 Login
+              </Link>
+              <Divider />
+              <Link to='/register'>
+                Register
               </Link>
             </LoginLink>
           }

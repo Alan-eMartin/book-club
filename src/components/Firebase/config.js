@@ -13,5 +13,3 @@ const firebaseConfig = {
 };
 
 export default firebaseConfig;
-
-console.log(FIREBASE_KEY);
